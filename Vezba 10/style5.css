@@ -1,0 +1,29 @@
+.gornji_deo{
+    width: 100%;
+}
+.levi_deo{
+    width: 40%;
+    display: inline-block;
+}
+
+.desni_deo{
+    width: 58%;
+    display: inline-block;
+}
+
+.donji_deo{
+   
+}
+
+
+.karta{
+    display: inline-block;
+    
+    
+    height: 250px;
+    
+}
+
+.margina_brojevi{
+    margin-left: 39px;
+}
