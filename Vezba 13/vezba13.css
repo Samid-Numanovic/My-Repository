@@ -1,0 +1,20 @@
+.inlineblock{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#slikica{
+    width: 40px;
+    height: 40px;
+    border-radius: 200px;
+    margin-left: 20px;
+}
+
+#dugme{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    width: 95px;
+    border: 1px solid blue;
+    margin-left: 35px;
+}

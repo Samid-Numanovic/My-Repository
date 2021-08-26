@@ -1,0 +1,63 @@
+.inlineblock{
+    display: inline-block;
+}
+
+.block{
+    display: block;
+}
+
+.glavnidiv{
+    text-align: center;
+    
+    
+}
+
+.malodole{
+    margin-top: 20px;
+}
+
+.malolevo{
+    margin-right: 250px;
+}
+
+.malodesno{
+    margin-left: 5px;
+}
+
+#input1{
+    width: 280px;
+    height: 25px;
+    background-color: rgb(236, 236, 236);
+    border: 1px solid rgb(163, 163, 163);
+    border-radius: 3px;
+}
+
+#input2{
+    width: 280px;
+    height: 25px;
+    background-color: rgb(236, 236, 236);
+    border: 1px solid rgb(163, 163, 163);
+    border-radius: 3px;
+}
+
+#input3{
+    background-color: rgb(236, 236, 236);
+    border: 1px solid rgb(163, 163, 163);
+    border-radius: 3px;
+}
+
+#message{
+    margin-right: 530px;
+}
+
+#dugme{
+    background-color: blue;
+    border-radius: 3px;
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    border: 1px solid rgb(57, 159, 255);
+    cursor: pointer;
+    
+}

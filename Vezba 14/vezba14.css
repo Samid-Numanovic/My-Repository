@@ -1,0 +1,90 @@
+#iks{
+    margin-left: 230px;
+    color: white;
+    margin-top: 7px;
+}
+
+.inlineblock{
+    display: inline-block;
+}
+
+#gornjideo{
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+
+#registracija{
+    margin-left: 200px;
+    color: white;
+    margin-top: 10px;
+}
+
+.inputi{
+    height: 30px;
+    width: 310px;
+    margin-left: 32px;
+    border: 1.6px solid lightgray;
+}
+
+.block{
+    display: block;
+}
+
+.labeli{
+    margin-left: 32px;
+    margin-top: 20px;
+}
+
+#glavnidiv{
+    width: 60%;
+    margin-left: 220px;
+    border: 1px solid lightgray;
+    
+}
+
+.desniinputi{
+    margin-left: 40px;
+}
+
+.desnilabeli{
+    margin-left: 40px;
+}
+
+.radio{
+    margin-left: 32px;
+    margin-top: 5px;
+}
+
+.radiolabeli{
+    margin-left: 6px;
+}
+
+.radiolabel{
+    margin-left: 25px;
+}
+
+.prvicheckbox{
+    margin-top: 50px;
+    margin-left: 32px;
+
+}
+
+.checkbox{
+    margin-top: 6px;
+    margin-left: 32px;
+}
+
+#dugme{
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left: 250px;
+    width: 310px;
+    height: 35px;
+    border: 1px solid black;
+    margin-bottom: 30px;
+    cursor: pointer;
+}

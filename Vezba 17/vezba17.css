@@ -1,0 +1,51 @@
+#glavnidiv{
+    width: 99.3%;
+    margin: 7px;
+}
+
+#header1{
+    width: 95%;
+    background-color: yellow;
+    padding: 25px;
+}
+
+#nav1{
+    width: 20%;
+    height: 400px;
+    background-color: yellow;
+    padding: 20px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#article1{
+    display: inline-block;
+    width: 47.4%;
+    height: 400px;
+    background-color: yellow;
+    padding: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#ads1{
+    display: inline-block;
+    width: 20%;
+    height: 400px;
+    background-color: yellow;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+body{
+    margin: 0px;
+}
+
+#footer1{
+    width: 95%;
+    background-color: yellow;
+    padding: 25px;
+    margin-top: 10px;
+
+}
