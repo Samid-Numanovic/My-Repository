@@ -1,0 +1,18 @@
+.glavnidiv{
+    display: flex;
+    justify-content: space-around;
+}
+#mapa{
+    width: 770px;
+}
+.desnastrana{
+    border: 1px solid black;
+    margin-right: 50px;
+}
+.block{
+    display: block;
+}
+.inputi{
+    width: 400px;
+    height: 30px;
+}
