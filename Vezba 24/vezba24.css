@@ -1,0 +1,28 @@
+.nav{
+    background-color: black;
+    color: white;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+}
+li{
+    margin: 15px;
+}
+.hoverable:hover{
+    background-color: lightseagreen;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+    
+}
+.padding{
+    padding: 8px;
+}
+nav .hoverable:hover .hovercontent{
+    display: block;
+}
+ .hovercontent{
+    display: none;
+}

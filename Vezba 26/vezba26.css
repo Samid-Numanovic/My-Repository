@@ -1,0 +1,46 @@
+.divovi{
+    width: 170px;
+    height: 170px;
+    border-radius: 180px;
+    transition: all 0.5s ease;
+    text-align: center;
+}
+.div1{
+    background-color: orangered;
+}
+.div2{
+    background-color: peru;
+}
+.div3{
+    background-color: peachpuff;
+}
+.div4{
+    background-color: rosybrown;
+}
+.glavnidiv{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.div1:hover{
+    background-color: royalblue;
+    width: 220px;
+    transform:skew(18deg) translateY(20px)  
+}
+.div2:hover{
+    background-color: seagreen;
+    width: 300px;
+    height: 290px;
+    transform:rotateZ(360deg)
+}
+.div3:hover{
+    background-color: slategray;
+    transform: scale(0.8);
+}
+.div4:hover{
+    background-color: yellowgreen;
+    transform: translateY(70px);
+}
+h1, h2, h3, h4{
+    margin-top: 60px;
+}

@@ -1,0 +1,101 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.div1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#pricing{
+    margin-bottom: 0px;
+    font-size: 36px;
+}
+#whatever{
+    font-size: 16px;
+    font-family: system-ui,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji';
+    color: rgb(131, 131, 131);
+}
+#dugme1{
+    font-size: 16px;
+    font-family: system-ui,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji';
+    color: white;
+    background: rgb(58, 58, 218);
+    border: 2px solid rgb(58, 58, 218);
+    border-radius: 4px;
+    padding: 7px 15px;
+    margin-right: 0px;
+    cursor: pointer;
+}
+#dugme2{
+    font-size: 16px;
+    font-family: system-ui,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji';
+    color: rgb(107, 107, 107);
+    background: white;
+    border: 2px solid rgb(58, 58, 218);
+    border-radius: 4px;
+    padding: 7px 15px;
+    margin-left: 0px;
+    cursor: pointer;
+}
+.kartica{
+    width: 21%;
+    height: 58vh;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+    padding: 1.5%;
+    position: relative;
+}
+.linija{
+    width: 98%;
+    border: none;
+    height: 1px;
+    background-color: rgb(204, 204, 204);
+}
+.ime{
+    font-size: 14px;
+    font-family: sans-serif system-ui,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji';
+    color: rgb(102, 102, 102);
+}
+.lista{
+    font-size: 16px;
+    font-family: system-ui,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji';
+    padding-left: 23px;
+}
+li{
+    margin-bottom: 12px
+}
+.dugme3{
+    width: 260px;
+    height: 39px;
+    border-radius: 5px;
+    border: 1px solid rgb(138, 138, 138);
+    background: rgb(138, 138, 138);
+    color: white;
+    text-align: left;
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.7s;
+    margin-top: 75px;
+}
+.dugme3:hover{
+    background: rgb(104, 104, 104);
+}
+#strelica1{
+    position: absolute;
+    right: 40px;
+    bottom: 52px;
+    color: white;
+}
+.tekstic{
+    font-size: 12px;
+    font-family: system-ui,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji';
+    color: rgb(138, 138, 138);
+}
+.glavnidiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+}

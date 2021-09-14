@@ -1,0 +1,51 @@
+body{
+    background-color: burlywood;
+}
+.jedan{
+    background-color: blueviolet;
+    width: 400px;
+    height: 400px;
+    font-size: 23px;
+}
+.dva{
+    background-color: cadetblue;
+    width: 400px;
+    height: 400px;
+    font-size: 23px;
+}
+.glavnidiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+@media screen and (max-width: 600px){
+    body{
+        background-color: chocolate;
+    }
+    .jedan{
+        width: 180px;
+        height: 200px;
+        font-size: 20px;
+    }
+    .dva{
+        width: 180px;
+        height: 200px;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 375px){
+    body{
+        background-color: blanchedalmond;
+    }
+    .jedan{
+        width: 160px;
+        height: 200px;
+        font-size: 17px;
+    }
+    .dva{
+        width: 160px;
+        height: 200px;
+        font-size: 17px;
+    }
+}

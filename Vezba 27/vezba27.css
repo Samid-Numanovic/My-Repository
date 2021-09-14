@@ -1,0 +1,39 @@
+.div1{
+    width: 400px;
+    background-color: rgb(35, 229, 255);
+    text-align: center;
+    height: 170px;
+    border: 4px solid rgb(0, 183, 255);
+    border-radius: 20px;
+    padding-top: 130px;
+    transition: 1s ease ease-in-out;
+}
+.glavnidiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 800px;
+    height: 600px;
+    border: 1px solid lightgray;
+}
+.glavnidiv:hover .div1{
+    animation: animacija 4s ease-in-out;
+}
+@keyframes animacija{
+    25%{
+        transform: translateX(190px);
+    }
+    50%{
+        transform: translateY(130px);
+    }
+    75%{
+        transform: translateX(-190px);
+    }
+    90%{
+
+    }
+    100%{
+            transform: translateY(0px) translateX(0px);
+    }
+}

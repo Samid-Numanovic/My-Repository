@@ -1,0 +1,82 @@
+.div {
+  border: 1px solid lightgray;
+  border-radius: 7px;
+  width: 30%;
+  height: 375px;
+}
+.glavnidiv {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 93vh;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.unutrasnjigornji {
+  width: 100%;
+  height: 175px;
+  background-color: rgb(218, 218, 218);
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heding2 {
+  margin: 0px;
+  color: rgb(97, 97, 97);
+  font-weight: 100;
+}
+.heding4 {
+  font-weight: bold;
+  color: rgb(134, 134, 134);
+}
+.heding3 {
+  color: black;
+  font-weight: 550;
+}
+.tekstovi {
+  width: 230px;
+  color: rgb(97, 97, 97);
+  font-weight: 500;
+}
+.learnmore {
+  color: rgb(0, 60, 255);
+}
+.tekst {
+  padding-left: 25px;
+}
+@media  screen and (max-width: 375px) {
+    .glavnidiv{
+        width: 321px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+@media  screen and (max-width: 920px) {
+    .tekst{
+        font-size: 14px;
+    }
+}
+@media  screen and (max-width: 880px) {
+    .tekst{
+        font-size: 13px;
+    }
+}
+@media  screen and (max-width: 830px) {
+    .tekst{
+        font-size: 15px;
+        width: 100px;
+    }
+    .div{
+        width: 90%;
+        height: 60vh;
+        margin-top: 25px;
+    }
+    .glavnidiv{
+        flex-wrap: wrap;
+    }
+}
