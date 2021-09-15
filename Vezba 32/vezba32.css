@@ -20,15 +20,10 @@
     grid-column-end: 5;
 }
 .box3{
-    background: cornflowerblue;
-    grid-column-start: 2;
-    grid-column-end: 3;   
+    background: cornflowerblue; 
 }
 .box4{
-    background: darkblue;
-    grid-column-start: 3;
-    grid-column-end: 5;
-    
+    background: darkblue;   
 }
 .box5{
     background: darkgreen;

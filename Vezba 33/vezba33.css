@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive
+}
+.glavnidiv{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 80%;
+    height: 90vh;
+    border: 3px solid black;
+    padding: 7px;
+    margin-left: 9.5%;
+    margin-top: 1%;
+    border-radius: 18px;
+}
+.divovi{
+    padding: 4.9rem;
+    text-align: center;
+    font-size: 24px;
+}
+.header{
+    background: orange;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    border-radius: 18px;
+    border: 3px solid rgb(207, 135, 0);
+}
+.main{
+    background: lightskyblue;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-radius: 18px;
+    border: 3px solid rgb(93, 163, 207);
+}
+.sidebar{
+    background: rgb(255, 92, 92);
+    grid-column-start: 4;
+    grid-column-end: 5;
+    border-radius: 18px;
+    border: 3px solid rgb(236, 35, 35)
+}
+.footer{
+    background: lightgreen;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    border-radius: 18px;
+    border: 3px solid rgb(103, 187, 103);
+}
