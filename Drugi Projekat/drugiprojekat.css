@@ -1,0 +1,25 @@
+.heding{
+    font-size: 30px;
+    font-family: Nunito, sans-serif;
+    color: white;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+header{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    background: black;
+    border: 1px solid lightgray;
+}
+.lista{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.deoliste{
+    font-size: 19px;
+    font-family: Poppins, sans-serif;
+    margin: 10px;
+    list-style-type: none;
+    color: white;
+}

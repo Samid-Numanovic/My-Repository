@@ -1,0 +1,51 @@
+.glavnidiv{
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 1fr 1.5fr 1.5fr;
+    grid-template-rows: repeat(4, 1fr);
+}
+.divovi{
+    padding: 4.5rem;
+    border: 0.5rem solid white;
+}
+.div1{
+    background: rgb(255, 81, 81);
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.div2{
+    background: rgb(255, 81, 81);
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+.div3{
+    background: rgb(255, 238, 0);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.div4{
+    background: purple;
+    grid-column-start: 3;
+    grid-column-end: 6;
+}
+.div5{
+    background: purple;
+    grid-column-start: 3;
+    grid-column-end: 6;
+}
+.div6{
+    background: teal;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.div7{
+    background: teal;
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+.div8{
+    background: teal;
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
